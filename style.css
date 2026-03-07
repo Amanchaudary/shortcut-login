@@ -1,0 +1,92 @@
+/* Custom colorful styles */
+body {
+  background: linear-gradient(to bottom right, #1e1b4b, #3b0764, #4c1d95);
+  color: #e0e7ff;
+}
+.section-title {
+  background: linear-gradient(to right, #c084fc, #db2777);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(192, 132, 252, 0.2);
+  border-color: #c084fc;
+}
+.ai-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(167, 139, 250, 0.1),
+    rgba(124, 58, 237, 0.1)
+  );
+}
+.coding-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(34, 211, 238, 0.1),
+    rgba(6, 182, 212, 0.1)
+  );
+}
+.webdev-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(59, 130, 246, 0.1),
+    rgba(29, 78, 216, 0.1)
+  );
+}
+.java-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(251, 146, 60, 0.1),
+    rgba(234, 88, 12, 0.1)
+  );
+}
+.japanese-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(236, 72, 153, 0.1),
+    rgba(219, 39, 119, 0.1)
+  );
+}
+.general-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(192, 132, 252, 0.1),
+    rgba(134, 25, 143, 0.1)
+  );
+}
+.navbar {
+  background: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(10px);
+}
+.hero-bg {
+  background: linear-gradient(to bottom, rgba(76, 29, 149, 0.8), transparent);
+}
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background: #c084fc;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s;
+}
+#backToTop:hover {
+  background: #db2777;
+}
